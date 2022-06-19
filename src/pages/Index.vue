@@ -7,6 +7,7 @@
             <EasybrushVue></EasybrushVue>
             <Store></Store>
             <banners-advertize></banners-advertize>
+            <review />
         </q-page-section>
     </q-page>
 </template>
@@ -19,6 +20,7 @@
     import Store from 'src/components/Store.vue';
     import EasybrushVue from 'src/components/Easybrush.vue';
     import BannersAdvertize from "components/BannersAdvertize";
+    import Review from "../components/Review/Review";
 
 
     export default {
@@ -29,12 +31,13 @@
     methods: {},
 
     components: {
-    BannersAdvertize,
+        BannersAdvertize,
         Description,
         GetStarted,
         Noplasic,
         EasybrushVue,
-        Store
+        Store,
+        review: Review,
     }
 };
 </script>

@@ -1,23 +1,23 @@
 <template>
     <q-layout hHh lpr fff>
-        <q-header reveal bordered>
-
-        </q-header>
+        <top/>
         <q-page-container>
             <router-view />
         </q-page-container>
-        <q-footer reveal bordered>
-
-        </q-footer>
+        <Footer/>
     </q-layout>
 </template>
 
 <script>
 
+import Top from "../components/Top/Top";
+import Footer from "../components/Footer/Footer";
+
 export default {
     name: 'MainLayout',
     components: {
-
+        top: Top,
+        Footer: Footer
     },
     data () {
         return {
