@@ -41,4 +41,4 @@ export default {
         height: 30px;
         margin: 0 0 30px 15px;
     }
-</style>svgsvg
+</style>

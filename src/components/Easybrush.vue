@@ -21,7 +21,7 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss" scoped>
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 .main-block{
   margin: 234px 20px 0 70px;
