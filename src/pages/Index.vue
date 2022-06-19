@@ -4,9 +4,9 @@
             <get-started></get-started>
             <description></description>
             <Noplasic></Noplasic>
-            <banners-advertize/>
             <EasybrushVue></EasybrushVue>
             <Store></Store>
+            <banners-advertize></banners-advertize>
         </q-page-section>
     </q-page>
 </template>
