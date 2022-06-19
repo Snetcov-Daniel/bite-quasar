@@ -5,10 +5,8 @@
             <div class="text-h4">{{ productName }}</div>
             <div class="text-h4">${{ productPrice }}</div>
         </q-card-section>
-        <q-card-section>
-                <div class="text-h6 text-grey-13">{{ productType }}</div>
-        </q-card-section>
-        <q-card-section class="flex q-gutter-xl">
+        <div class="type text-h6 text-grey-13">{{ productType }}</div>
+        <q-card-section class="flex q-gutter-lg">
             <div class="text-h6">Rated {{ productRating }} out of 5</div>
             <div class="text-h6">{{ productReviews }} Reviews</div>
         </q-card-section>
@@ -35,8 +33,12 @@ export default {
 
 <style lang="scss" scoped>
 
+    .type {
+        margin: -20px 15px
+    }
     .stars {
         width: 150px;
         height: 30px;
+        margin: 0 0 30px 15px;
     }
 </style>svgsvg

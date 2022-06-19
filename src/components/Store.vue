@@ -111,7 +111,7 @@ export default {
 
 <style lang="scss" scoped>
 .big-card {
-    width: 600px;
+    width: 550px;
     height: auto;
     margin: 50px 20px;
 }
