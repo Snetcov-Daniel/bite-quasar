@@ -2,20 +2,25 @@
   <q-page>
     <q-page-section>
       <Noplasic></Noplasic>
+      <EasybrushVue></EasybrushVue>
     </q-page-section>
   </q-page>
 </template>
 
 <script>
-import Noplasic from 'src/components/Noplasic.vue';
+import Noplasic from "src/components/Noplasic.vue";
+import EasybrushVue from "src/components/Easybrush.vue";
 
 export default {
-    name: "PageIndex",
-    data() {
-        return {};
-    },
-    methods: {},
-    components: { Noplasic }
+  name: "PageIndex",
+  data() {
+    return {};
+  },
+  methods: {},
+  components: {
+    Noplasic,
+    EasybrushVue,
+  },
 };
 </script>
 
@@ -64,5 +69,4 @@ export default {
     }
   }
 }
-
 </style>
