@@ -4,11 +4,13 @@
             <get-started></get-started>
             <description></description>
             <Noplasic></Noplasic>
+            <banners-advertize/>
             <EasybrushVue></EasybrushVue>
             <Store></Store>
         </q-page-section>
     </q-page>
 </template>
+
 
 <script>
     import Noplasic from 'src/components/Noplasic.vue';
@@ -16,6 +18,8 @@
     import GetStarted from '../components/Get-started';
     import Store from 'src/components/Store.vue';
     import EasybrushVue from 'src/components/Easybrush.vue';
+    import BannersAdvertize from "components/BannersAdvertize";
+
 
     export default {
     name: "PageIndex",
@@ -23,7 +27,9 @@
     return {};
 },
     methods: {},
+
     components: {
+    BannersAdvertize,
         Description,
         GetStarted,
         Noplasic,
