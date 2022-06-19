@@ -1,23 +1,26 @@
 <template>
     <q-layout hHh lpr fff>
-        <q-header reveal bordered>
-
-        </q-header>
+        <top/>
         <q-page-container>
-            <router-view />
+            <!-- <router-view /> -->
+            <review/>
         </q-page-container>
-        <q-footer reveal bordered>
-
-        </q-footer>
+        <Footer/>
     </q-layout>
 </template>
 
 <script>
 
+import Top from "../components/Top/Top";
+import Review from "../components/Review/Review";
+import Footer from "../components/Footer/Footer";
+
 export default {
     name: 'MainLayout',
     components: {
-        
+        top: Top,
+        review: Review,
+        Footer: Footer
     },
     data () {
         return {

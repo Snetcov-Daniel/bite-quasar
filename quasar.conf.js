@@ -90,6 +90,7 @@ module.exports = function (/* ctx */) {
             // * 'auto' - (DEFAULT) Auto-import needed Quasar components & directives
             // * 'all'    - Manually specify what to import
             importStrategy: 'auto',
+            all: 'auto',
 
             // For special cases outside of where "auto" importStrategy can have an impact
             // (like functional components as one of the examples),
