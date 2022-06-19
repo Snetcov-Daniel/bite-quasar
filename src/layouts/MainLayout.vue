@@ -17,11 +17,11 @@
 export default {
     name: 'MainLayout',
     components: {
-        
+
     },
     data () {
         return {
-            
+
         }
     }
 }
