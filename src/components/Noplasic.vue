@@ -78,7 +78,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .cutImage-wrapper {
   width: 300px;
   height: 260px;
