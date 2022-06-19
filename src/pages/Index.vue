@@ -4,6 +4,7 @@
             <get-started></get-started>
             <description></description>
             <Noplasic></Noplasic>
+            <EasybrushVue></EasybrushVue>
             <Store></Store>
         </q-page-section>
     </q-page>
@@ -14,6 +15,7 @@
     import Description from '../components/Description';
     import GetStarted from '../components/Get-started';
     import Store from 'src/components/Store.vue';
+    import EasybrushVue from 'src/components/Easybrush.vue';
 
     export default {
     name: "PageIndex",
@@ -25,6 +27,7 @@
         Description,
         GetStarted,
         Noplasic,
+        EasybrushVue,
         Store
     }
 };
@@ -79,5 +82,4 @@
         }
     }
 }
-
 </style>
