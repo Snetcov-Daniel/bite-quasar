@@ -2,12 +2,14 @@
   <q-page>
     <q-page-section>
       <Noplasic></Noplasic>
+      <banners-advertize/>
     </q-page-section>
   </q-page>
 </template>
 
 <script>
 import Noplasic from 'src/components/Noplasic.vue';
+import BannersAdvertize from "components/BannersAdvertize";
 
 export default {
     name: "PageIndex",
@@ -15,7 +17,11 @@ export default {
         return {};
     },
     methods: {},
-    components: { Noplasic }
+
+    components: {
+      Noplasic,
+    BannersAdvertize
+    }
 };
 </script>
 
