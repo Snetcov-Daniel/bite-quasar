@@ -1,17 +1,19 @@
 <template>
     <q-page>
         <q-page-section>
-            <get-started/>
-            <description/>
+            <get-started></get-started>
+            <description></description>
             <Noplasic></Noplasic>
+            <Store></Store>
         </q-page-section>
     </q-page>
 </template>
 
 <script>
     import Noplasic from 'src/components/Noplasic.vue';
-    import Description from '../components/Description'
-    import GetStarted from '../components/Get-started'
+    import Description from '../components/Description';
+    import GetStarted from '../components/Get-started';
+    import Store from 'src/components/Store.vue';
 
     export default {
     name: "PageIndex",
@@ -20,9 +22,10 @@
 },
     methods: {},
     components: {
-        description: Description,
-        getStarted: GetStarted,
-        Noplasic
+        Description,
+        GetStarted,
+        Noplasic,
+        Store
     }
 };
 </script>
